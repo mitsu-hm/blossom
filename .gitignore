@@ -1,0 +1,16 @@
+# Dependencies, build output and system files
+node_modules/
+.vscode/
+.DS_Store
+Thumbs.db
+bv2/
+bloom/dist/
+
+# Folders and assets to ignore
+missing webpages/
+Blossom Shoots_files/
+docs/superpowers/
+
+# Local raw camera master photos (5.5GB+, with raw files > 100MB)
+# All web-optimized photos are stored in bloom/public/images/real/
+pictures/

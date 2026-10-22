@@ -1,0 +1,18 @@
+node_modules
+*/node_modules
+bloom/node_modules
+dist
+*/dist
+bloom/dist
+.git
+.gitignore
+.gitattributes
+.vscode
+.agents
+*.log
+Thumbs.db
+.DS_Store
+Blossom Shoots_files
+Blossom Shoots.htm
+docs
+bv2
