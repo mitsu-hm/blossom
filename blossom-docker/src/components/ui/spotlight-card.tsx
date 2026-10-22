@@ -1,0 +1,44 @@
+import React, { useRef, useState } from "react"
+
+interface SpotlightCardProps extends React.HTMLAttributes<HTMLDivElement> {
+  children: React.ReactNode
+  className?: string
+  spotlightColor?: string
+}
+
+export function SpotlightCard({
+  children,
+  className = "",
+  spotlightColor = "rgba(200, 76, 109, 0.16)",
+  ...props
+}: SpotlightCardProps) {
+  const divRef = useRef<HTMLDivElement>(null)
+  const [position, setPosition] = useState<{ x: number; y: number }>({ x: 0, y: 0 })
+  const [opacity, setOpacity] = useState(0)
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!divRef.current) return
+    const rect = divRef.current.getBoundingClientRect()
+    setPosition({ x: e.clientX - rect.left, y: e.clientY - rect.top })
+  }
+
+  return (
+    <div
+      ref={divRef}
+      onMouseMove={handleMouseMove}
+      onMouseEnter={() => setOpacity(1)}
+      onMouseLeave={() => setOpacity(0)}
+      className={`relative overflow-hidden rounded-3xl border border-rose-100/80 bg-white/60 backdrop-blur-md transition-all duration-300 ${className}`}
+      {...props}
+    >
+      <div
+        className="pointer-events-none absolute -inset-px transition-opacity duration-300"
+        style={{
+          opacity,
+          background: `radial-gradient(400px circle at ${position.x}px ${position.y}px, ${spotlightColor}, transparent 70%)`,
+        }}
+      />
+      <div className="relative z-10">{children}</div>
+    </div>
+  )
+}

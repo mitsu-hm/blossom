@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@import "@fontsource/lexend-deca/300.css";
+@import "@fontsource/lexend-deca/400.css";
+@import "@fontsource/lexend-deca/500.css";
+@import "@fontsource/lexend-deca/600.css";
+@import "@fontsource/lexend-deca/700.css";
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --background: 345 50% 97%;
+    --foreground: 330 17% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 330 17% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 330 17% 11%;
+    --primary: 345 52% 54%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 345 60% 95%;
+    --secondary-foreground: 330 17% 11%;
+    --muted: 345 30% 94%;
+    --muted-foreground: 330 8% 40%;
+    --accent: 345 60% 94%;
+    --accent-foreground: 345 52% 44%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 345 40% 90%;
+    --input: 345 40% 90%;
+    --ring: 345 52% 54%;
+    --radius: 0.85rem;
+  }
+}
+
+html,
+body {
+  font-family: var(--font-sans);
+  background-color: #FDF2F5;
+  color: #22181C;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #FBD5DF;
+  color: #7A1E3C;
+}
+
+/* Curated Fine-Art Sakura Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(253, 242, 245, 0.7);
+  backdrop-filter: blur(8px);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #F3BAC7;
+  border-radius: 9999px;
+  border: 2px solid rgba(253, 242, 245, 0.8);
+  background-clip: padding-box;
+  transition: background-color 0.25s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #C84C6D;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #F3BAC7 transparent;
+}
