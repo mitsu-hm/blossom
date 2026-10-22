@@ -1,9 +1,11 @@
 services:
-  app:
+  web:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: blossom_shots
+    container_name: blossom_shoots_app
     ports:
       - "3000:80"
+    environment:
+      - PORT=80
     restart: unless-stopped
