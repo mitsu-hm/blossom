@@ -22,7 +22,7 @@ export const defaultPhotographyCards = [
     category: 'mehendi',
   },
   {
-    image: '/images/real/couple-1.webp',
+    image: '/images/couple_romance.jpeg',
     title: 'Golden Hour Devotion',
     description: 'Candid couple portraiture bathed in the gentle warmth of sunset light.',
     label: 'Couple Shoots',

@@ -84,7 +84,7 @@ export function BookingDialog({
             Book Your Session
           </DialogTitle>
           <DialogDescription className="text-sm text-[#6E5D64] font-normal">
-            Every session is unhurried and carefully tailored. Choose your preferred collection below to connect directly with Ms. Manisha Jha and our team.
+            Every session is unhurried and carefully tailored. Choose your preferred collection below to connect directly with Mrs. Manisha Jha and our team.
           </DialogDescription>
         </DialogHeader>
 

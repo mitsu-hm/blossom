@@ -56,7 +56,7 @@ const collections = [
     title: "Couple Shoots",
     tag: "Romantic Storytelling",
     duration: "90 to 120 Minutes",
-    image: "/images/real/couple-1.webp",
+    image: "/images/couple_bookings.jpeg",
     description: "Candid intimacy and romantic connection captured in ethereal, golden-hour light.",
     highlights: [
       "Consultation on scenic location & wardrobe styling",

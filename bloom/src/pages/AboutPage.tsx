@@ -21,7 +21,7 @@ export function AboutPage() {
     {
       title: "Couple Shoots",
       description: "Celebrate your love and connection with romantic, cinematic portraits capturing authentic chemistry in golden light.",
-      image: "/images/real/couple-1.webp",
+      image: "/images/couple_bookings.jpeg",
       badge: "Romantic Connection",
     },
     {
@@ -61,7 +61,7 @@ export function AboutPage() {
 
           <div className="max-w-3xl mx-auto space-y-4 text-sm sm:text-base text-[#6E5D64] leading-relaxed font-normal">
             <p>
-              Blossom Shoot Fine Arts began as a dream nurtured by our founder, <strong className="text-[#22181C] font-semibold">Ms. Manisha Jha</strong>. What started as a personal passion quickly blossomed into a lifelong mission: to freeze time, preserve tender emotions, and craft stories through the lens.
+              Blossom Shoot Fine Arts began as a dream nurtured by our founder, <strong className="text-[#22181C] font-semibold">Mrs. Manisha Jha</strong>. What started as a personal passion quickly blossomed into a lifelong mission: to freeze time, preserve tender emotions, and craft stories through the lens.
             </p>
             <p>
               The name <span className="italic font-medium text-[#C84C6D]">“Blossom”</span> was inspired by a quiet photo walk through a blooming garden — a moment of realization that photography is not just about <em className="text-[#22181C]">seeing</em>, but about <em className="text-[#22181C]">feeling</em>. From that day, Blossom Shoot Fine Arts has grown into an atelier committed to capturing life’s most meaningful milestones with creativity, patience, and authentic heart.
@@ -86,14 +86,14 @@ export function AboutPage() {
                 <div className="relative overflow-hidden rounded-[2.5rem] border border-rose-200/80 bg-white/60 p-3.5 shadow-xl shadow-[#22181C]/5 backdrop-blur-md">
                   <div className="overflow-hidden rounded-[2rem] aspect-[3/4] bg-rose-50">
                     <img
-                      src="/images/real/atelier-showcase.webp"
-                      alt="Ms. Manisha Jha — Founder & Principal Artist"
+                      src="/images/mrs-jha.webp"
+                      alt="Mrs. Manisha Jha — Founder & Principal Artist"
                       className="h-full w-full object-cover object-top"
                     />
                   </div>
                   <div className="p-4 text-center">
                     <h3 className="text-xl font-bold text-[#22181C] font-sans">
-                      Ms. Manisha Jha
+                      Mrs. Manisha Jha
                     </h3>
                     <p className="text-xs uppercase tracking-widest text-[#C84C6D] font-semibold mt-0.5">
                       CEO, Founder & Principal Artist
@@ -184,7 +184,7 @@ export function AboutPage() {
 
               <div className="space-y-4 text-sm sm:text-base text-[#6E5D64] leading-relaxed font-normal">
                 <p>
-                  Continuous growth and technical refinement are cornerstones of our atelier. Ms. Manisha Jha had the distinct privilege of receiving one-on-one mentorship from renowned fine-art photographer and educator <strong className="text-[#22181C] font-semibold">David Scheinbaum</strong> at the <strong className="text-[#22181C] font-semibold">Houston Center for Photography (HCP)</strong>.
+                  Continuous growth and technical refinement are cornerstones of our atelier. Mrs. Manisha Jha had the distinct privilege of receiving one-on-one mentorship from renowned fine-art photographer and educator <strong className="text-[#22181C] font-semibold">David Scheinbaum</strong> at the <strong className="text-[#22181C] font-semibold">Houston Center for Photography (HCP)</strong>.
                 </p>
                 <p>
                   This immersive mentorship deepened her mastery of darkroom lighting sensibilities, intentional visual hierarchy, and the emotional resonance that distinguishes true fine-art portraiture from standard commercial imagery.
@@ -209,8 +209,8 @@ export function AboutPage() {
                 <div className="overflow-hidden rounded-[2.5rem] border border-rose-200/80 bg-white/60 p-3.5 shadow-xl shadow-[#22181C]/5 backdrop-blur-md">
                   <div className="overflow-hidden rounded-[2rem] aspect-[4/3] bg-rose-50">
                     <img
-                      src="/images/real/corporate-1.webp"
-                      alt="Mastery & Editorial Presence — Blossom Shoot Fine Arts"
+                      src="/images/with-professor.webp"
+                      alt="David Scheinbaum & Manisha Jha — Mentorship at Houston Center for Photography"
                       className="h-full w-full object-cover"
                     />
                   </div>

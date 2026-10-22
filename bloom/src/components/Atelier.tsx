@@ -19,14 +19,14 @@ export function Atelier() {
               <div className="relative overflow-hidden rounded-[2.5rem] border border-rose-200/80 bg-white/60 backdrop-blur-md p-3 shadow-xl shadow-[#22181C]/5">
                 <div className="overflow-hidden rounded-[2rem] aspect-[3/4] bg-rose-50">
                   <img
-                    src="/images/real/atelier-showcase.webp"
-                    alt="Ms. Manisha Jha — Founder & Creative Director"
+                    src="/images/mrs-jha.webp"
+                    alt="Mrs. Manisha Jha — Founder & Creative Director"
                     className="h-full w-full object-cover object-top"
                   />
                 </div>
                 <div className="p-4 text-center">
                   <h4 className="text-lg font-bold text-[#22181C] font-sans">
-                    Ms. Manisha Jha
+                    Mrs. Manisha Jha
                   </h4>
                   <p className="text-xs uppercase tracking-widest text-[#C84C6D] font-semibold mt-0.5">
                     CEO, Founder & Principal Artist

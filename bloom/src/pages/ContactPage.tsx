@@ -181,7 +181,7 @@ export function ContactPage() {
                     Inquiry Window Opened
                   </h3>
                   <p className="text-sm text-[#6E5D64] max-w-md mx-auto">
-                    Thank you! We have prepared your communication directly with Ms. Manisha Jha and look forward to speaking with you.
+                    Thank you! We have prepared your communication directly with Mrs. Manisha Jha and look forward to speaking with you.
                   </p>
                   <Button
                     onClick={() => setSubmitted(false)}

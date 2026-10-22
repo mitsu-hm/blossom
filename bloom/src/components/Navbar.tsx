@@ -22,8 +22,6 @@ const navLinks = [
   { label: "Mehendi & Sangeet", href: "/#mehendi-sangeet" },
   { label: "Collections", href: "/#collections" },
   { label: "Our Story", href: "/about" },
-  { label: "Experience", href: "/#experience" },
-  { label: "Contact", href: "/contact" },
 ]
 
 export function Navbar() {
@@ -70,7 +68,7 @@ export function Navbar() {
         </Link>
 
         {/* Editorial Navigation Links */}
-        <nav className="hidden xl:flex items-center gap-3 xl:gap-5 2xl:gap-7 min-w-0">
+        <nav className="hidden xl:flex items-center gap-4 xl:gap-6 2xl:gap-8 min-w-0">
           {navLinks.map((link) => {
             const isExactActive = location.pathname === link.href
             return (
@@ -92,26 +90,6 @@ export function Navbar() {
 
         {/* Right Action Cluster */}
         <div className="hidden xl:flex items-center gap-1.5 xl:gap-2 shrink-0">
-          {/* Verified Google Review Badge with Tooltip */}
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <a
-                href="https://g.page/r/CcKxanJ1lSZbEAI/review"
-                target="_blank"
-                rel="noreferrer"
-                className="hidden 2xl:flex items-center gap-1.5 bg-white/80 hover:bg-white border border-rose-200/80 px-3 py-1.5 rounded-full text-xs transition-colors group cursor-pointer shadow-2xs whitespace-nowrap"
-              >
-                <div className="flex text-amber-400">
-                  <Star className="h-3 w-3 fill-amber-400" />
-                </div>
-                <span className="font-bold text-[#22181C] text-[11px]">5.0</span>
-                <span className="text-[10px] text-[#C84C6D] font-medium">Google Reviews</span>
-              </a>
-            </TooltipTrigger>
-            <TooltipContent side="bottom" className="bg-[#22181C] text-white text-[11px] rounded-lg px-2.5 py-1">
-              Verified 5.0 Star Reviews · Read or Leave a Review
-            </TooltipContent>
-          </Tooltip>
 
           {/* WhatsApp Inquiries with Tooltip */}
           <Tooltip>

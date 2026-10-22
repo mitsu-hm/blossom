@@ -11,6 +11,7 @@ import { AboutPage } from "@/pages/AboutPage"
 import { ContactPage } from "@/pages/ContactPage"
 import { PortfolioPage } from "@/pages/PortfolioPage"
 import { TooltipProvider } from "@/components/ui/tooltip"
+import { GoogleReviewBadge } from "@/components/GoogleReviewBadge"
 
 function ScrollHandler() {
   const { pathname, hash } = useLocation()
@@ -106,6 +107,7 @@ export default function App() {
             </Routes>
           </main>
           <Footer />
+          <GoogleReviewBadge />
         </div>
       </BrowserRouter>
     </TooltipProvider>

@@ -142,11 +142,11 @@ const portfolioData: PortfolioItem[] = [
   // Couple Shoots (Traditional and Celebration Duos)
   {
     id: "cpl-1",
-    title: "Cultural Harmony & Companionship",
+    title: "Golden Hour Romance",
     category: "couples",
     categoryLabel: "Couple Shoots",
     description: "Refined traditional couple portraiture bathed in luminous ambient light.",
-    image: "/images/real/couple-1.webp",
+    image: "/images/couple_romance.jpeg",
     aspect: "landscape",
     featured: true,
   },
@@ -156,7 +156,7 @@ const portfolioData: PortfolioItem[] = [
     category: "couples",
     categoryLabel: "Couple Shoots",
     description: "Candid celebrations and affectionate glances between lifelong partners.",
-    image: "/images/real/couple-2.webp",
+    image: "/images/couple_bookings.jpeg",
     aspect: "landscape",
   },
   {

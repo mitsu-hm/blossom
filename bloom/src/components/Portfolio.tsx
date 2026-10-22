@@ -20,7 +20,7 @@ const allPortfolioCards: BentoCard[] = [
     category: "mehendi",
   },
   {
-    image: "/images/real/couple-1.webp",
+    image: "/images/couple_romance.jpeg",
     title: "Golden Hour Romance",
     description: "Candid couple portraiture bathed in the gentle warmth of sunset light.",
     label: "Couple Shoots",
